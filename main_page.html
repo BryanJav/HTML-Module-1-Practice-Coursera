@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Main Page</title>
+</head>
+<body>
+	<section id="TOP_PAGE">
+		<h1 align="center">
+			ALWAYS CHECK HTML IN W3.ORG AFTER CREATION TO DETERMINE IF THE CODE IS CORRECT
+		</h1>
+		 
+		<h2 align="center">
+			!-- “text” --> = this how to comment in HTML
+		</h2>
+	</section>
+
+	<div id="Go_back_to_homepage">
+		<a href="homepage.html" title="Takes You To The Homepage"> <img src="back-button-png-15.png" width="30" height="25"> </a>
+ 
+	</div>
+	
+	<div id="table_of_contents">
+		<h3>Table of Contents:</h3>
+		<ol>
+				<h4>
+					<li><a href="#HEADING">HEADING ELEMENTS </a></li>
+					<li><a href="#CHARACTER_ENTITY">CHARACTER ENTITY ELEMENTS</a></li>
+					<li><a href="#LINKS">LINKS </a></li>
+					<li><a href="#IMAGES">DISPLAYING IMAGES</a></li>
+				</h4>
+		</ol>
+
+	</div>
+
+	<section id="HEADING">
+		
+		<br>
+		<br>
+		<h3>HEADING ELEMENTS</h3>
+
+
+		<b>< header > </b> show the header 
+		<br>
+		
+		<b>< section ></b> creates a separate section inside the page 
+		<br>
+
+		<b> < article > </b> article tag, used mainly for articles and comments 
+		<br>
+		<br>
+
+		<b>< div ></b> division tag, this is mainly used for dividing areas into a section for ease of readability and also for CSS editing, later on, 
+		<br>
+		<b>< div ></b> div tags are block elements, meaning they end on a new line 
+		<br>
+		<br>
+
+		<b>< span ></b> span tag, this is used when you want to highlight different elements within a tag without altering its position or creating a new line at the end 
+		<br>
+		<b>< span ></b> span tags are inline elements, meaning they dont end in a new line 
+		<br>
+		<br>
+		
+		Header tags: Arrange by most important tag to the least important tag
+		<ol>
+			<li> <b>< h1 ></b> </li>
+			<li> <b>< h2 ></b> </li>
+			<li> <b>< h3 ></b> </li>
+			<li> <b>< h4 ></b> </li>
+			<li> <b>< h5 ></b> </li>
+			<li> <b>< h6 ></b> </li>	
+		</ol>
+		
+
+		<br>
+		<b>< ul ></b> unordered lists, makes a list of objects 
+			<br>
+			<b>< li ></b> use this to put bullets on the objects of the lists 
+
+		<br>
+		<b>< ol ></b> ordered lists of objects, output lists are 1. 2. 3. And so on 
+			<br>
+			<b>< li ></b> use this to put the numbers on the objects of the lists 
+
+		<br>
+		<b>< p ></b> paragraph tags, used for paragraphs with a article 
+
+		<br>
+		<br>
+		<a href="#table_of_contents"> Go Back To The Table Of Contents</a>
+	</section>
+
+
+	<section id="CHARACTER_ENTITY">
+		<br>
+		<br>
+		<br>
+		<h3>CHARACTER ENTITY ELEMENTS</h3>
+		<b>3 Characters You Should Avoid!!</b>
+		<br>
+		<b> “<” </b> = instead use “&lt ;”, always include a semicolon in the end
+		<br>
+		<b> “>” </b> = instead use “&gt ;”
+		<br>
+		<b> “&” </b> = instead use “&amp ;”
+		<br>
+		<br>
+		<b> THIS APPLIES EVEN TO TEXT </b> 
+		<br>
+		<br>
+		<b>& copy ;</b> = Copywrite logo
+		<br>
+		<b>& nbsp ;</b> = non-breaking space (if you want the text to always stay and not break the line)
+		<br>
+		<b>& quote ;</b> = takes a quote in the text and makes it compatible on other versions of meta
+
+		<br>
+		<br>
+		<a href="#table_of_contents"> Go Back To The Table Of Contents</a>
+	</section>
+
+	<section id="LINKS">
+		<br>
+		<br>
+		<br>
+		<h3> LINKS </h3> 
+		<b> < a > < /a > </b>
+		<br>
+		<b> Same directory < a > : </b>
+		<br>
+		&lta href = “same-directory.html” title=”same dir link” > (this is the hyperlink text) linking to a file in the same directory &lt/a>
+
+		<br>
+		<br>
+		<b> Website link &lta>: </b> 
+
+		<br>
+		&lta href= “website link” (this is to create a new tab) -> target=”_blank” (this is the title when the mouse hovers on the link) -> title=”Like Our Page”> Coursera Facebok Page &lt/a>
+
+		<br>
+		<br>
+		<b> Section link &lta> </b>:
+
+		<br>
+		<b> id= </b> ”name of a section of the page”
+
+		<br>
+		<br>
+		<b> “ # “ </b> = SECTION IDENTIFIER
+		<br>
+		<br>
+		<b> USED FOR SPA (SINGLE PAGE APPLICATIONS) ALWAYS USE A # TO DETERMINE THE PAGE ID </b>
+		<br>
+		<b> EXAMPLE: </b> id=”section1” or name=”section6” 
+
+		<br>
+		<br>
+		THEN INCLUDE A <b> " # " </b> INSIDE THE <b> HREF </b> TO DETERMINE THE <b> ID OR NAME </b>
+		<br>
+		<b> &ltli> &lta href=”#section1”> #section1 &lt/a> &lt/li> </b>
+
+		<br>
+		<br>
+		<a href="#table_of_contents"> Go Back To The Table Of Contents</a>
+	</section>
+
+
+	<section id="IMAGES">
+		<br>
+		<br>
+		<br>
+		<h3> DISPLAYING IMAGES </h3>
+		<b> ALWAYS SPECIFY THE WIDTH AND HEIGHT OF THE IMAGE IN ORDER TO NOT BREAK THE LAYOUT OF THE WEBSITE </b>
+		<br>
+		<br>
+		<b> &ltimg src> </b> is an inline element
+		<br>
+		<br>
+		<b> &ltimg src=” <i> image external link or image source </i> ” width=” <i> width of the image </i> ” height=” <i> height of the image </i>” alt=”screen reader text (<i>this is optional but it is good practice to do so</i>)”> </b>
+
+		<br>
+		<br>
+		<a href="#table_of_contents"> Go Back To The Table Of Contents</a>
+
+	</section>
+
+	<section id="BOTTOM_PAGE">
+		<br>
+		<br>
+		<br>
+		<a href="#TOP_PAGE"> Go Back To Top</a>
+		<br>
+		<a href="#table_of_contents"> Go Back To The Table Of Contents</a>
+		<br>
+		<a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome" target="_blank" title="Coursera Course Link"> Coursera Course Link on HTML CSS and JavaScript </a>
+
+	</section>
+</body>
+</html>
